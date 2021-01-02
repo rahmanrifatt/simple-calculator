@@ -1,0 +1,59 @@
+body {
+    background-image: url('kkk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body div.mycalc {
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+	background-color: #777;
+	border-radius: 20px;
+	margin-top: 90px;
+	
+}
+
+div input[type='button'], button {
+	width: 120px;
+	height: 80px;
+	margin: 2px 0;
+	border-radius: 20px;
+	font-size: 30px;
+	font-family: cursive;
+}
+	
+
+
+div input[type="text"] {
+	height: 100px;
+	width: 100%;
+	background-color: rgb(14, 12, 12);
+	color: #fff;
+	padding: 12px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+	border: 2px solid #777;
+	font-size: 50px;
+	font-family: cursive;
+}
+
+
+
+div.results input {
+	background-color: #d42b14;
+	color: #fff;
+	border: 1px solid #d42b14;
+	width: 236px;
+	height: 70px;
+	border-radius: 20px;
+}
+
+.operator {
+	background-color: green;
+	color: #fff;
+	border: 1px solid green;
+	font-size: 16px;
+}
